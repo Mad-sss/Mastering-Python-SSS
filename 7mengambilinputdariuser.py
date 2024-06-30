@@ -1,0 +1,8 @@
+data = input("Masukan data: ")
+print("data : ", data,",type: ", type(data))
+data_bool = bool(float(data))
+print("data : ", data_bool,",type: ", type(data_bool))
+data_float = float(data)
+print("data : ", data_float,",type: ", type(data_float))
+data_int = int(float(data))
+print("data : ", data_int,",type: ", type(data_int))
